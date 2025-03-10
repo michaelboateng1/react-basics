@@ -36,7 +36,13 @@ body {
 }
 
 .book h1 {
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
+}
+
+.book h4 {
+  color: #617d98;
+  font-size: 0.78rem;
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {

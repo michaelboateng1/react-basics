@@ -7,36 +7,30 @@ import "./index.css";
 function Booklist() {
   return (
     <section className="book-list">
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+      <Book
+        image="https://picsum.photos/200/100"
+        alt="Book cover"
+        title="The Way to The Jungle."
+        author="Michael Boateng"
+      />
+      <Book
+        image="https://picsum.photos/200/100"
+        alt="Book cover"
+        title="The Way to The Jungle."
+        author="Blue Ivy Carter"
+      />
     </section>
   );
 }
 
-const author = "Michael Boateng";
-const Book = () => {
-  const title = "The Way to The Jungle.";
+const Book = (props) => {
   return (
     <article className="book">
       <div className="wrapper">
-        <img
-          src="https://picsum.photos/200/100"
-          alt="Book cover"
-          width={200}
-          height={100}
-        />
+        <img src={props.image} alt={props.alt} width={200} height={100} />
       </div>
-      <h1>{title}</h1>
-      <h4
-        style={{ color: "#617d98", fontSize: "0.78rem", marginTop: "0.5rem" }}
-      >
-        {author}
-      </h4>
+      <h1>{props.title}</h1>
+      <h4>{props.author}</h4>
     </article>
   );
 };
