@@ -18,29 +18,27 @@ function Booklist() {
   );
 }
 
+const author = "Michael Boateng";
 const Book = () => {
+  const title = "The Way to The Jungle.";
   return (
     <article className="book">
-      <Image />
-      <BookTitle />
-      <Author />
+      <div className="wrapper">
+        <img
+          src="https://picsum.photos/200/100"
+          alt="Book cover"
+          width={200}
+          height={100}
+        />
+      </div>
+      <h1>{title}</h1>
+      <h4
+        style={{ color: "#617d98", fontSize: "0.78rem", marginTop: "0.5rem" }}
+      >
+        {author}
+      </h4>
     </article>
   );
 };
-
-const Image = () => (
-  <div className="wrapper">
-    <img
-      src="https://picsum.photos/200/100"
-      alt="Book cover image"
-      width={200}
-      height={100}
-    />
-  </div>
-);
-
-const BookTitle = () => <h1>The Way to The Jungle.</h1>;
-
-const Author = () => <h4>Michael Boateng</h4>;
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Booklist />);
