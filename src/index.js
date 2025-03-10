@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// CSS
+import "./index.css";
+
 function Booklist() {
   return (
     <section>
