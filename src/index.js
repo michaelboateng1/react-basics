@@ -1,18 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function Greetings() {
+function Booklist() {
   return (
-    <div>
-      <Name></Name>
-      <Message />
-    </div>
+    <section>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </section>
   );
 }
 
-const Name = () => <h1>My name is Michael Boateng</h1>;
-const Message = () => {
-  return <p>This is my message.</p>;
+const Book = () => {
+  return (
+    <article>
+      <Image />
+      <BookTitle />
+      <Author />
+    </article>
+  );
 };
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Greetings />);
+const Image = () => <img src="https://picsum.photos/200/100" alt="" />;
+
+const BookTitle = () => <h1>The Way to The Jungle.</h1>;
+
+const Author = () => <h4>Michael Boateng</h4>;
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Booklist />);
