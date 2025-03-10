@@ -6,7 +6,7 @@ import "./index.css";
 
 function Booklist() {
   return (
-    <section>
+    <section className="book-list">
       <Book />
       <Book />
       <Book />
@@ -20,7 +20,7 @@ function Booklist() {
 
 const Book = () => {
   return (
-    <article>
+    <article className="book">
       <Image />
       <BookTitle />
       <Author />
@@ -28,7 +28,16 @@ const Book = () => {
   );
 };
 
-const Image = () => <img src="https://picsum.photos/200/100" alt="" />;
+const Image = () => (
+  <div className="wrapper">
+    <img
+      src="https://picsum.photos/200/100"
+      alt="Book cover image"
+      width={200}
+      height={100}
+    />
+  </div>
+);
 
 const BookTitle = () => <h1>The Way to The Jungle.</h1>;
 
