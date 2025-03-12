@@ -8,7 +8,11 @@ import "./index.css";
 import Book from "./Book";
 import { books } from "./books_data";
 
+// testing
+import { greeting } from "./testing/test";
+
 function Booklist() {
+  console.log(greeting);
   return (
     <section className="book-list">
       {books.map((book, index) => {
