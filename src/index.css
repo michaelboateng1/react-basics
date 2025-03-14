@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 90vw;
-  max-width: 800px;
+  max-width: 1180px;
   padding: 2em;
   display: flex;
   flex-flow: column nowrap;
@@ -62,4 +62,45 @@ h6 {
   color: rgb(97, 11, 97);
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+ul {
+  display: grid;
+  padding: 1em;
+  gap: 2em;
+}
+
+ul li {
+  list-style: none;
+  padding: 1em 1.5em;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+li div a {
+  text-decoration: none;
+  color: rgb(114, 14, 114);
+  margin-top: 0.5em;
+}
+
+li div h4 {
+  font-size: 1.5rem;
+  margin-top: 0.2em;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(196, 245, 196);
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

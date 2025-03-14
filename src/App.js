@@ -3,20 +3,33 @@ import React from "react";
 // CSS
 import "./index.css";
 
-// useState examples
+// ! /* useState examples */
 // import UseStateExample from "./advance_react/useState/useState_basics";
 // import UseStateWithArray from "./advance_react/useState/useState_withArray";
 // import UseStateWithObj from "./advance_react/useState/useState_objects";
-import Counter from "./advance_react/useState/useState_counter";
+// import Counter from "./advance_react/useState/useState_counter";
+
+// ! /* useEffect examples */
+// import UseEffectBasics from "./advance_react/useEffect/useEffect_basics";
+// import CleanFunction from "./advance_react/useEffect/useEffect_clean";
+import FetchData from "./advance_react/useEffect/useEffect_fetch-data";
 
 function App() {
   return (
     <React.Fragment>
       <div className="container">
+        {/* useState examples */}
+
         {/* <UseStateExample /> */}
         {/* <UseStateWithArray /> */}
         {/* <UseStateWithObj /> */}
-        <Counter />
+        {/* <Counter /> */}
+
+        {/* useEffect examples */}
+
+        {/* <UseEffectBasics /> */}
+        {/* <CleanFunction /> */}
+        <FetchData />
       </div>
     </React.Fragment>
   );
