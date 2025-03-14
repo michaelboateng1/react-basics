@@ -17,7 +17,9 @@ import "./index.css";
 // ! /* conditional rendering */
 // import ConditionalRExample from "./advance_react/conditional_rendring/conditional_rendring";
 // import GetUser from "./advance_react/conditional_rendring/get-data";
-import ShortCircute from "./advance_react/conditional_rendring/short_circuting";
+// import ShortCircute from "./advance_react/conditional_rendring/short_circuting";
+// import ShortCircuteExample from "./advance_react/conditional_rendring/short_circute-examples";
+import ShowAndHide from "./advance_react/conditional_rendring/show_hide";
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
         {/* conditional rendering */}
         {/* <ConditionalRExample /> */}
         {/* <GetUser /> */}
-        <ShortCircute />
+        {/* <ShortCircute /> */}
+        {/* <ShortCircuteExample /> */}
+        <ShowAndHide />
       </div>
     </React.Fragment>
   );
