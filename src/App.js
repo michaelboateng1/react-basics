@@ -12,24 +12,30 @@ import "./index.css";
 // ! /* useEffect examples */
 // import UseEffectBasics from "./advance_react/useEffect/useEffect_basics";
 // import CleanFunction from "./advance_react/useEffect/useEffect_clean";
-import FetchData from "./advance_react/useEffect/useEffect_fetch-data";
+// import FetchData from "./advance_react/useEffect/useEffect_fetch-data";
+
+// ! /* conditional rendering */
+// import ConditionalRExample from "./advance_react/conditional_rendring/conditional_rendring";
+import GetUser from "./advance_react/conditional_rendring/get-data";
 
 function App() {
   return (
     <React.Fragment>
       <div className="container">
         {/* useState examples */}
-
         {/* <UseStateExample /> */}
         {/* <UseStateWithArray /> */}
         {/* <UseStateWithObj /> */}
         {/* <Counter /> */}
 
         {/* useEffect examples */}
-
         {/* <UseEffectBasics /> */}
         {/* <CleanFunction /> */}
-        <FetchData />
+        {/* <FetchData /> */}
+
+        {/* conditional rendering */}
+        {/* <ConditionalRExample /> */}
+        <GetUser />
       </div>
     </React.Fragment>
   );
