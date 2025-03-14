@@ -16,7 +16,8 @@ import "./index.css";
 
 // ! /* conditional rendering */
 // import ConditionalRExample from "./advance_react/conditional_rendring/conditional_rendring";
-import GetUser from "./advance_react/conditional_rendring/get-data";
+// import GetUser from "./advance_react/conditional_rendring/get-data";
+import ShortCircute from "./advance_react/conditional_rendring/short_circuting";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
 
         {/* conditional rendering */}
         {/* <ConditionalRExample /> */}
-        <GetUser />
+        {/* <GetUser /> */}
+        <ShortCircute />
       </div>
     </React.Fragment>
   );
