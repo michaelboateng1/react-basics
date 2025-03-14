@@ -9,6 +9,7 @@ function ShortCircute() {
     <>
       <div>{firstText}</div>
       <div>{secondText}</div>
+      <h1>{text && "this is a test"}</h1>
     </>
   );
 }
