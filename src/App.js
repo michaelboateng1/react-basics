@@ -19,7 +19,11 @@ import "./index.css";
 // import GetUser from "./advance_react/conditional_rendring/get-data";
 // import ShortCircute from "./advance_react/conditional_rendring/short_circuting";
 // import ShortCircuteExample from "./advance_react/conditional_rendring/short_circute-examples";
-import ShowAndHide from "./advance_react/conditional_rendring/show_hide";
+// import ShowAndHide from "./advance_react/conditional_rendring/show_hide";
+
+// ! /* forms */
+// import ControlledInputBasics from "./advance_react/forms/controlled_input";
+import MultipleInputs from "./advance_react/forms/multiple_inputs";
 
 function App() {
   return (
@@ -41,7 +45,11 @@ function App() {
         {/* <GetUser /> */}
         {/* <ShortCircute /> */}
         {/* <ShortCircuteExample /> */}
-        <ShowAndHide />
+        {/* <ShowAndHide /> */}
+
+        {/* controlled input */}
+        {/* <ControlledInputBasics /> */}
+        <MultipleInputs />
       </div>
     </React.Fragment>
   );
