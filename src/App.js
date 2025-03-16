@@ -26,7 +26,10 @@ import "./index.css";
 // import MultipleInputs from "./advance_react/forms/multiple_inputs";
 
 // ! /* useRef */
-import UncontrolledInput from "./advance_react/useRef/uncontrolled_input";
+// import UncontrolledInput from "./advance_react/useRef/uncontrolled_input";
+
+// ! /* useReducer */
+import Index from "./advance_react/useReducer";
 
 function App() {
   return (
@@ -55,7 +58,10 @@ function App() {
         {/* <MultipleInputs /> */}
 
         {/* useRef hook */}
-        <UncontrolledInput />
+        {/* <UncontrolledInput /> */}
+
+        {/* useReducer hook */}
+        <Index />
       </div>
     </React.Fragment>
   );
