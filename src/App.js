@@ -32,7 +32,10 @@ import "./index.css";
 // import Index from "./advance_react/useReducer";
 
 // ! /* propDrilling */
-import PropDrilling from "./advance_react/prop_drilling/prop_drilling";
+// import PropDrilling from "./advance_react/prop_drilling/prop_drilling";
+
+// ! /* ContextAPI/useContext */
+import ContextAPI from "./advance_react/useContext/useContext";
 
 function App() {
   return (
@@ -67,7 +70,10 @@ function App() {
         {/* <Index /> */}
 
         {/* propDrilling */}
-        <PropDrilling />
+        {/* <PropDrilling /> */}
+
+        {/* contextAPI/useContext */}
+        <ContextAPI />
       </div>
     </React.Fragment>
   );
