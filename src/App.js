@@ -29,7 +29,10 @@ import "./index.css";
 // import UncontrolledInput from "./advance_react/useRef/uncontrolled_input";
 
 // ! /* useReducer */
-import Index from "./advance_react/useReducer";
+// import Index from "./advance_react/useReducer";
+
+// ! /* propDrilling */
+import PropDrilling from "./advance_react/prop_drilling/prop_drilling";
 
 function App() {
   return (
@@ -61,7 +64,10 @@ function App() {
         {/* <UncontrolledInput /> */}
 
         {/* useReducer hook */}
-        <Index />
+        {/* <Index /> */}
+
+        {/* propDrilling */}
+        <PropDrilling />
       </div>
     </React.Fragment>
   );
