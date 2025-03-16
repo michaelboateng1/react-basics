@@ -23,19 +23,22 @@ import "./index.css";
 
 // ! /* forms */
 // import ControlledInputBasics from "./advance_react/forms/controlled_input";
-import MultipleInputs from "./advance_react/forms/multiple_inputs";
+// import MultipleInputs from "./advance_react/forms/multiple_inputs";
+
+// ! /* useRef */
+import UncontrolledInput from "./advance_react/useRef/uncontrolled_input";
 
 function App() {
   return (
     <React.Fragment>
       <div className="container">
-        {/* useState examples */}
+        {/* useState hook examples */}
         {/* <UseStateExample /> */}
         {/* <UseStateWithArray /> */}
         {/* <UseStateWithObj /> */}
         {/* <Counter /> */}
 
-        {/* useEffect examples */}
+        {/* useEffect hook examples */}
         {/* <UseEffectBasics /> */}
         {/* <CleanFunction /> */}
         {/* <FetchData /> */}
@@ -49,7 +52,10 @@ function App() {
 
         {/* controlled input */}
         {/* <ControlledInputBasics /> */}
-        <MultipleInputs />
+        {/* <MultipleInputs /> */}
+
+        {/* useRef hook */}
+        <UncontrolledInput />
       </div>
     </React.Fragment>
   );

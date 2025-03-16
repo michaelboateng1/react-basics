@@ -130,8 +130,7 @@ form button {
   font-family: inherit;
   border: none;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 1em;
+  margin: 1em auto;
   cursor: pointer;
 }
 
