@@ -35,7 +35,10 @@ import "./index.css";
 // import PropDrilling from "./advance_react/prop_drilling/prop_drilling";
 
 // ! /* ContextAPI/useContext */
-import ContextAPI from "./advance_react/useContext/useContext";
+// import ContextAPI from "./advance_react/useContext/useContext";
+
+// ! /* Custom Hooks */
+import Example from "./advance_react/custom_hooks/customHookExample";
 
 function App() {
   return (
@@ -73,7 +76,10 @@ function App() {
         {/* <PropDrilling /> */}
 
         {/* contextAPI/useContext */}
-        <ContextAPI />
+        {/* <ContextAPI /> */}
+
+        {/* Custom Hooks */}
+        <Example />
       </div>
     </React.Fragment>
   );
